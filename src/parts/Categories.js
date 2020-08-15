@@ -26,7 +26,7 @@ export default function Categories({ data }) {
                       </div>
                     )}
                     <figure className="img-wrapper" style={{ height: 180 }}>
-                      <img
+                    <img
                         src={item.imageUrl}
                         alt={item.name}
                         className="img-cover"
